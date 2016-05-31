@@ -2404,11 +2404,11 @@ in modules // {
 
   blaze = buildPythonPackage rec {
     name = "blaze-${version}";
-    version = "0.9.1";
+    version = "0.10.1";
 
     src = pkgs.fetchurl {
       url = "mirror://pypi/b/blaze/${name}.tar.gz";
-      sha256 = "fde4fd5733d8574345521581078a4fd89bb51ad3814eda88f1f467faa3a9784a";
+      sha256 = "16m1nzs5gzwa62pwybjsxgbdpd9jy10rhs3c3niacyf6aa6hr9jh";
     };
 
     buildInputs = with self; [ pytest ];
